@@ -41,5 +41,8 @@
   },
   "devDependencies": {
     "@testing-library/react": "^12.1.2"
+  },
+  "engines": {
+    "node": ">=16"
   }
 }
