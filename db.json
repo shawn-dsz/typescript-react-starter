@@ -1,0 +1,85 @@
+{
+  "user": {
+    "id": "61",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "defaultBoard": "12"
+  },
+  "board": {
+    "columns": [
+      {
+        "id": "14",
+        "name": "To Do",
+        "order": 1,
+        "cards": [
+          {
+            "id": "91",
+            "name": "Make the Bed",
+            "description": "Voluptate ad eiusmod labore reprehenderit tempor veniam mollit eu.",
+            "dueDate": "2017-01-01",
+            "assignee": "2",
+            "labels": ["1", "2"]
+          },
+          {
+            "id": "52",
+            "name": "Walk the Dog",
+            "order": 1,
+            "description": "Nulla id sit veniam anim id sunt sint esse mollit proident pariatur ex.",
+            "dueDate": "2017-01-01",
+            "assignee": "2",
+            "labels": ["1", "2"]
+          },
+          {
+            "id": "35",
+            "name": "Buy Milk",
+            "order": 1,
+            "description": "Dolore aute voluptate ex cupidatat pariatur dolor consequat minim consequat duis duis consequat labore exercitation.",
+            "dueDate": "2017-01-01",
+            "assignee": "2",
+            "labels": ["1", "2"]
+          }
+        ]
+      },
+      {
+        "id": "72",
+        "name": "In Progress",
+        "order": 2,
+        "cards": [
+          {
+            "id": "2",  
+            "name": "Pay the Bills",
+            "order": 1,
+            "description": "Nostrud ex magna ex nisi reprehenderit labore consequat deserunt cillum mollit minim elit pariatur mollit.",
+            "dueDate": "2017-01-01",
+            "assignee": "2",
+            "labels": ["1", "2"]
+          }
+        ]
+      },
+      {
+
+        "id": "33",
+        "name": "Done",
+        "order": 3,
+        "cards": [
+          {
+            "id": "31",
+            "name": "Feed the cat",
+            "description": "Et occaecat eiusmod culpa dolor consequat sint ex eiusmod esse mollit incididunt sit commodo.",
+            "dueDate": "2017-01-01",
+            "assignee": "2",
+            "labels": ["1", "2"]
+          },
+          {
+            "id": "32",
+            "name": "Do the Dishes",
+            "description": "Consequat do nostrud sint nisi ex officia ut ex velit culpa.",
+            "dueDate": "2017-01-01",
+            "assignee": "2",
+            "labels": ["1", "2"]
+          }
+        ]
+      }
+    ]
+  }
+}

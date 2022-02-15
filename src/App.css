@@ -3,9 +3,42 @@ pre {
   font-family: Menlo;
 }
 
-.container {
+/* .container {
   display: flex;
   height: 100vh;
   align-items: center;
   justify-content: center;
+} */
+:root {
+  --border: rgb(194, 194, 194) solid 1px;
+  --border-radius: 6px;
+}
+.column-container {
+  display: grid;
+  grid-auto-flow: column;
+  max-width: 980px;
+  min-width: 600px;
+  gap: 10px;
+}
+
+.column-title {
+  font-weight: bold;
+}
+.column {
+  background: rgb(243 243 243);
+  border: var(--border);
+  border-radius: var(--border-radius);
+}
+.card-container {
+  display: grid;
+  gap: 6px 0px;
+  padding: 5px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid black;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding: 5px;
 }
